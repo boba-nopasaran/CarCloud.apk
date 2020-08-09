@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Асистент</string>
+    <string name="message_send">Відправка повідомлення</string>
+    <string name="bond_user_list">Поєднаний пристрій</string>
+    <string name="bond_qr_tip">Відскануйте QR код і встановіть програму на мобільний пристрій.</string>
+    <string name="input_message_tip">Введіть текст</string>
+    <string name="empty_message_tip">Нічого не введено</string>
+    <string name="no_message">Повідомлення відсутні</string>
+    <string name="bond_qr">"Прив'язка QR-коду"</string>
+    <string name="title_already_new">Стан актуальний</string>
+    <string name="message_already_new">Система в актуальному стані.</string>
+    <string name="sure">Підтвердження</string>
+    <string name="ignore">Ігнорувати цю версію</string>
+    <string name="later">Нагадати пізніше</string>
+    <string name="title_new_version">Нова версія</string>
+    <string name="please_go">Будь ласка</string>
+    <string name="download2sd">завантажте оновлення на мікро SD</string>
+    <string name="change_log">Історія змін</string>
+    <string name="pickup_prompt">Отримати інформацію про місцезнаходження （Призначено для ：%s）</string>
+    <string name="appointment_prompt">Збереження пункту призначення：%s，</string>
+    <string name="gonow">Відправка</string>
+    <string name="cancel">Відміна</string>
+    <string name="connected">"(Під'єднано)"</string>
+    <string name="disconnected">"(Від'єднано)"</string>
+    <string name="title_download_qr">Код для завантаження мобільного кліента</string>
+    <string name="subtitle_download_qr">Скануйте код для завантаження додатку.</string>
+    <string name="title_bond_qr">"Прив'язка QR-коду"</string>
+    <string name="subtitle_bond_qr">"Програма кліент, дозволяє сканувати QR-код для прив'язки обладнання"</string>
+</resources>

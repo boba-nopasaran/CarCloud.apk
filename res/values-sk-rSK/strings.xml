@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarAssist</string>
+    <string name="message_send">Odoslanie správy</string>
+    <string name="bond_user_list">Spárované zariadenie</string>
+    <string name="bond_qr_tip">Nainštalujte CarAssist do svojho mobilu a skenujte QR-kód pre pripojenie.</string>
+    <string name="input_message_tip">Zadajte správu</string>
+    <string name="empty_message_tip">Správa nebola zadaná</string>
+    <string name="no_message">Žiadne správy</string>
+    <string name="bond_qr">Spojenie QR-kódom</string>
+    <string name="title_already_new">Stav je aktuálny</string>
+    <string name="message_already_new">Systém je aktuálny.</string>
+    <string name="sure">Potvrdenie</string>
+    <string name="ignore">Ignorovať túto verziu</string>
+    <string name="later">Pripomenúť neskôr</string>
+    <string name="title_new_version">Nová verzia</string>
+    <string name="please_go">Prosím</string>
+    <string name="download2sd">Stiahnite si aktualizáciu na SD kartu2</string>
+    <string name="change_log">História zmien</string>
+    <string name="pickup_prompt">Získať informácie o polohe (Priradené na ：%s）</string>
+    <string name="appointment_prompt">Uložiť cieľ: %s，</string>
+    <string name="gonow">Odoslať</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="agree">Vyriešiť</string>
+    <string name="agreenow">Prijať</string>
+    <string name="connected">(Pripojené)</string>
+    <string name="disconnected">(Odpojené)</string>
+    <string name="title_download_qr">Skenujte QR-kód do mobilu</string>
+    <string name="subtitle_download_qr">Skenujte QR-kód pre pripojenie.</string>
+    <string name="title_bond_qr">Spojenie QR-kódom</string>
+    <string name="subtitle_bond_qr">Nainštalujte CarAssist do svojho mobilu a skenujte QR-kód pre pripojenie.</string>
+</resources>

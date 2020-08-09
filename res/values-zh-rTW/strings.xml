@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">車車助手</string>
+    <string name="message_send">發送</string>
+    <string name="bond_user_list">已綁定用戶</string>
+    <string name="bond_qr_tip">使用車車助手掃描上方二維碼圖案，即可與手機端綁定</string>
+    <string name="input_message_tip">輸入文字內容</string>
+    <string name="empty_message_tip">輸入內容為空</string>
+    <string name="no_message">暫無信息</string>
+    <string name="bond_qr">綁定二維碼</string>
+    <string name="title_already_new">已是最新版本</string>
+    <string name="message_already_new">當前系統已是最新版本</string>
+    <string name="sure">確定</string>
+    <string name="ignore">忽略此版本</string>
+    <string name="later">稍後提醒我</string>
+    <string name="title_new_version">發現新版本</string>
+    <string name="please_go">請到</string>
+    <string name="download2sd">下載到sdcard升級</string>
+    <string name="change_log">版本修改記錄</string>
+    <string name="pickup_prompt">已獲取對方位置信息（目的地為：%s），是否出發去接人？</string>
+    <string name="appointment_prompt">預約導航目的地為：%s，即將開始導航</string>
+    <string name="gonow">出發</string>
+    <string name="cancel">取消</string>
+    <string name="delbind">是否取消%s的绑定？</string>
+    <string name="connected">(在線)</string>
+    <string name="disconnected">(離線)</string>
+    <string name="unbindnow">已经与设备解除绑定</string>
+    <string name="device_connected">設備在線</string>
+    <string name="device_disconnected">設備離線</string>
+    <string name="qrcode_tip">"車車助手APP下載
+車車助手綁定設備"</string>
+    <string name="title_download_qr">手機客戶端下載二維碼</string>
+    <string name="subtitle_download_qr">可以掃描對應二維碼下載安卓和蘋果客戶端</string>
+    <string name="title_bond_qr">綁定二維碼</string>
+    <string name="subtitle_bond_qr">下載手機客戶端后可以掃描綁定二維碼綁定本設備</string>
+    <string name="device_alarm">設備啟動成功</string>
+    <string name="start_alarm">愛車已啟動</string>
+    <string name="shake_alarm">愛車此刻正受到較強震動，請注意</string>
+    <string name="image_alarm">實時拍照詳情</string>
+    <string name="video_alarm">實時錄製詳情</string>
+    <string name="sos_alarm">SOS報警</string>
+    <string name="speed_down_alarm">急減速</string>
+    <string name="speed_up_alarm">急加速</string>
+    <string name="turn_left_alarm">急左轉彎</string>
+    <string name="turn_right_alarm">急右轉彎</string>
+    <string name="msg_from">剛給您發了一條消息，內容為</string>
+    <string name="none">"無綁定用戶
+請打開手機端車車助手 -> 我 -> 設備管理 -> 掃描設備"</string>
+</resources>

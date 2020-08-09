@@ -1,0 +1,288 @@
+.class public Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;
+.super Lcz/msebera/android/httpclient/impl/io/AbstractMessageParser;
+.source "DefaultHttpResponseParser.java"
+
+
+# annotations
+.annotation build Lcz/msebera/android/httpclient/annotation/NotThreadSafe;
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcz/msebera/android/httpclient/impl/io/AbstractMessageParser",
+        "<",
+        "Lcz/msebera/android/httpclient/HttpResponse;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+.field public log:Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+.field private final responseFactory:Lcz/msebera/android/httpclient/HttpResponseFactory;
+
+
+# direct methods
+.method public constructor <init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;)V
+    .locals 2
+
+    const/4 v1, 0x0
+
+    sget-object v0, Lcz/msebera/android/httpclient/config/MessageConstraints;->DEFAULT:Lcz/msebera/android/httpclient/config/MessageConstraints;
+
+    invoke-direct {p0, p1, v1, v1, v0}, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;-><init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/message/LineParser;Lcz/msebera/android/httpclient/HttpResponseFactory;Lcz/msebera/android/httpclient/config/MessageConstraints;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/config/MessageConstraints;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0, v0, p2}, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;-><init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/message/LineParser;Lcz/msebera/android/httpclient/HttpResponseFactory;Lcz/msebera/android/httpclient/config/MessageConstraints;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/message/LineParser;Lcz/msebera/android/httpclient/HttpResponseFactory;Lcz/msebera/android/httpclient/config/MessageConstraints;)V
+    .locals 2
+
+    invoke-direct {p0, p1, p2, p4}, Lcz/msebera/android/httpclient/impl/io/AbstractMessageParser;-><init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/message/LineParser;Lcz/msebera/android/httpclient/config/MessageConstraints;)V
+
+    new-instance v0, Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;-><init>(Ljava/lang/Object;)V
+
+    iput-object v0, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->log:Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+    if-eqz p3, :cond_0
+
+    :goto_0
+    iput-object p3, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->responseFactory:Lcz/msebera/android/httpclient/HttpResponseFactory;
+
+    new-instance v0, Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    const/16 v1, 0x80
+
+    invoke-direct {v0, v1}, Lcz/msebera/android/httpclient/util/CharArrayBuffer;-><init>(I)V
+
+    iput-object v0, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    return-void
+
+    :cond_0
+    sget-object p3, Lcz/msebera/android/httpclient/impl/DefaultHttpResponseFactory;->INSTANCE:Lcz/msebera/android/httpclient/impl/DefaultHttpResponseFactory;
+
+    goto :goto_0
+.end method
+
+.method public constructor <init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/message/LineParser;Lcz/msebera/android/httpclient/HttpResponseFactory;Lcz/msebera/android/httpclient/params/HttpParams;)V
+    .locals 2
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    invoke-direct {p0, p1, p2, p4}, Lcz/msebera/android/httpclient/impl/io/AbstractMessageParser;-><init>(Lcz/msebera/android/httpclient/io/SessionInputBuffer;Lcz/msebera/android/httpclient/message/LineParser;Lcz/msebera/android/httpclient/params/HttpParams;)V
+
+    new-instance v0, Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;-><init>(Ljava/lang/Object;)V
+
+    iput-object v0, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->log:Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+    const-string v0, "Response factory"
+
+    invoke-static {p3, v0}, Lcz/msebera/android/httpclient/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    iput-object p3, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->responseFactory:Lcz/msebera/android/httpclient/HttpResponseFactory;
+
+    new-instance v0, Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    const/16 v1, 0x80
+
+    invoke-direct {v0, v1}, Lcz/msebera/android/httpclient/util/CharArrayBuffer;-><init>(I)V
+
+    iput-object v0, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected bridge synthetic parseHead(Lcz/msebera/android/httpclient/io/SessionInputBuffer;)Lcz/msebera/android/httpclient/HttpMessage;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Lcz/msebera/android/httpclient/HttpException;,
+            Lcz/msebera/android/httpclient/ParseException;
+        }
+    .end annotation
+
+    invoke-virtual {p0, p1}, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->parseHead(Lcz/msebera/android/httpclient/io/SessionInputBuffer;)Lcz/msebera/android/httpclient/HttpResponse;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method protected parseHead(Lcz/msebera/android/httpclient/io/SessionInputBuffer;)Lcz/msebera/android/httpclient/HttpResponse;
+    .locals 8
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Lcz/msebera/android/httpclient/HttpException;
+        }
+    .end annotation
+
+    const/4 v7, -0x1
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    :goto_0
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-virtual {v4}, Lcz/msebera/android/httpclient/util/CharArrayBuffer;->clear()V
+
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-interface {p1, v4}, Lcz/msebera/android/httpclient/io/SessionInputBuffer;->readLine(Lcz/msebera/android/httpclient/util/CharArrayBuffer;)I
+
+    move-result v2
+
+    if-ne v2, v7, :cond_0
+
+    if-nez v0, :cond_0
+
+    new-instance v4, Lcz/msebera/android/httpclient/NoHttpResponseException;
+
+    const-string v5, "The target server failed to respond"
+
+    invoke-direct {v4, v5}, Lcz/msebera/android/httpclient/NoHttpResponseException;-><init>(Ljava/lang/String;)V
+
+    throw v4
+
+    :cond_0
+    new-instance v1, Lcz/msebera/android/httpclient/message/ParserCursor;
+
+    const/4 v4, 0x0
+
+    iget-object v5, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-virtual {v5}, Lcz/msebera/android/httpclient/util/CharArrayBuffer;->length()I
+
+    move-result v5
+
+    invoke-direct {v1, v4, v5}, Lcz/msebera/android/httpclient/message/ParserCursor;-><init>(II)V
+
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineParser:Lcz/msebera/android/httpclient/message/LineParser;
+
+    iget-object v5, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-interface {v4, v5, v1}, Lcz/msebera/android/httpclient/message/LineParser;->hasProtocolVersion(Lcz/msebera/android/httpclient/util/CharArrayBuffer;Lcz/msebera/android/httpclient/message/ParserCursor;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineParser:Lcz/msebera/android/httpclient/message/LineParser;
+
+    iget-object v5, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-interface {v4, v5, v1}, Lcz/msebera/android/httpclient/message/LineParser;->parseStatusLine(Lcz/msebera/android/httpclient/util/CharArrayBuffer;Lcz/msebera/android/httpclient/message/ParserCursor;)Lcz/msebera/android/httpclient/StatusLine;
+
+    move-result-object v3
+
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->responseFactory:Lcz/msebera/android/httpclient/HttpResponseFactory;
+
+    const/4 v5, 0x0
+
+    invoke-interface {v4, v3, v5}, Lcz/msebera/android/httpclient/HttpResponseFactory;->newHttpResponse(Lcz/msebera/android/httpclient/StatusLine;Lcz/msebera/android/httpclient/protocol/HttpContext;)Lcz/msebera/android/httpclient/HttpResponse;
+
+    move-result-object v4
+
+    return-object v4
+
+    :cond_1
+    if-eq v2, v7, :cond_2
+
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-virtual {p0, v4, v0}, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->reject(Lcz/msebera/android/httpclient/util/CharArrayBuffer;I)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_3
+
+    :cond_2
+    new-instance v4, Lcz/msebera/android/httpclient/ProtocolException;
+
+    const-string v5, "The server failed to respond with a valid HTTP response"
+
+    invoke-direct {v4, v5}, Lcz/msebera/android/httpclient/ProtocolException;-><init>(Ljava/lang/String;)V
+
+    throw v4
+
+    :cond_3
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->log:Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+    invoke-virtual {v4}, Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;->isDebugEnabled()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_4
+
+    iget-object v4, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->log:Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v6, "Garbage in response: "
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    iget-object v6, p0, Lcz/msebera/android/httpclient/impl/conn/DefaultHttpResponseParser;->lineBuf:Lcz/msebera/android/httpclient/util/CharArrayBuffer;
+
+    invoke-virtual {v6}, Lcz/msebera/android/httpclient/util/CharArrayBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Lcz/msebera/android/httpclient/extras/HttpClientAndroidLog;->debug(Ljava/lang/Object;)V
+
+    :cond_4
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+.end method
+
+.method protected reject(Lcz/msebera/android/httpclient/util/CharArrayBuffer;I)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method

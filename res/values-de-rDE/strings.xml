@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto-Assistent</string>
+    <string name="message_send">Senden</string>
+    <string name="bond_user_list">Gekoppeltes Gerät</string>
+    <string name="bond_qr_tip">Scannen Sie den QR-Code und installieren Sie das Programm auf dem mobilem Gerät.</string>
+    <string name="input_message_tip">Text eingeben</string>
+    <string name="empty_message_tip">Nichts eingegeben</string>
+    <string name="no_message">Keine Nachricht</string>
+    <string name="bond_qr">QR-Code Bindung</string>
+    <string name="title_already_new">Neuster Status</string>
+    <string name="message_already_new">System auf dem neusten Stand.</string>
+    <string name="sure">Bestätigung</string>
+    <string name="ignore">Diese Version ignorieren</string>
+    <string name="later">Später erinnern</string>
+    <string name="title_new_version">Neue Version</string>
+    <string name="please_go">Bitte</string>
+    <string name="download2sd">Upgrade auf die SD-Karte herunterladen</string>
+    <string name="change_log">Versionsänderungsprotokoll</string>
+    <string name="pickup_prompt">Information zum aktuellen Standort bekommen （Zugewiesen für ：%s）</string>
+    <string name="appointment_prompt">Speicherung des Standorts：%s，</string>
+    <string name="gonow">Senden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="connected">(Verbunden)</string>
+    <string name="disconnected">(Getrennt)</string>
+    <string name="title_download_qr">Code für Installierung mobilner Clients</string>
+    <string name="subtitle_download_qr">Scannen Sie den Code, um die Anwendung herunterzuladen.</string>
+    <string name="title_bond_qr">QR-Code Bindung</string>
+    <string name="subtitle_bond_qr">Programm Client, können Sie QR-Code für Hardware-Bindung Scannen</string>
+</resources>

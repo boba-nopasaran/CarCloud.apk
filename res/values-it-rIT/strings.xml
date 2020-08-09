@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assistente di auto</string>
+    <string name="message_send">Invia</string>
+    <string name="bond_user_list">Utente legato</string>
+    <string name="bond_qr_tip">"Usa l'assistente auto per scannerizzare il disegno del codice QR qui sopra, può legare con il cellulare"</string>
+    <string name="input_message_tip">Inserisci contenuti di testo</string>
+    <string name="empty_message_tip">Contenuti inserti sono vuoti</string>
+    <string name="no_message">Senza info temporaneamente</string>
+    <string name="bond_qr">Lega codice QR</string>
+    <string name="title_already_new">"È l'ultima versione"</string>
+    <string name="message_already_new">"Il sistema attuale è l'ultima versione"</string>
+    <string name="sure">Conferma</string>
+    <string name="ignore">Ignora questa versione</string>
+    <string name="later">Ricordamelo più tardi</string>
+    <string name="title_new_version">Trovata versione nuova</string>
+    <string name="please_go">Vai a</string>
+    <string name="download2sd">Scarica a sdcard per aggiornare</string>
+    <string name="change_log">Record di modifica della versione</string>
+    <string name="pickup_prompt">"Avere accesso all' informazione della sua posizione (destinazione:%s), se parti a prenderlo?"</string>
+    <string name="appointment_prompt">Destinazione di navigazione prenotata :%s, inizierà la navigazione</string>
+    <string name="gonow">Partenza</string>
+    <string name="cancel">Annulla</string>
+    <string name="received_bind_request">%1$s invia la richiesta di legatura</string>
+    <string name="agree_key_ok">Tasto</string>
+    <string name="agree_key_mid">Tasto centrale</string>
+    <string name="agree">Approva</string>
+    <string name="refuse">rifiuta</string>
+    <string name="bindtips">Se accetti la richiesta di legatura, premi a breve entro%1$d secondi sul lato dispositivo%2$s per confermare,</string>
+    <string name="agreenow">Accettato la richiesta di legatura</string>
+    <string name="refusenow">Rifiutato la richiesta di legatura</string>
+    <string name="delbind">Se annulla la legatura %s?</string>
+    <string name="connected">(Online)</string>
+    <string name="disconnected">(Offline)</string>
+    <string name="unbindnow">Sciolto la legatura con dispositivo</string>
+    <string name="bondrequest">Invia la richiesta di legatura</string>
+    <string name="device_connected">Dispositivo online</string>
+    <string name="device_disconnected">Dispositivo offline</string>
+    <string name="qrcode_tip">"Scarica APP Assistente di auto 
+Assistente di auto lega con dispositivo"</string>
+    <string name="title_download_qr">Scarica codice QR con il cliente di cellulare</string>
+    <string name="subtitle_download_qr">È possibile eseguire la scansione del codice QR corrispondente per scaricare il cliente Android e Apple</string>
+    <string name="title_bond_qr">Lega codice QR</string>
+    <string name="subtitle_bond_qr">Dopo avere scaricato il cliente di cellulare può scannerizzare il codice QR legato per legare il presente dispositivo</string>
+    <string name="device_alarm">Dispositivo è stato avviato con successo</string>
+    <string name="start_alarm">La macchina è avviata</string>
+    <string name="shake_alarm">La macchina ha subito le forti vibrazioni al momento, si prega di notare</string>
+    <string name="image_alarm">Dettagli di fotografia in tempo reale</string>
+    <string name="video_alarm">Dettagli di registrazione in tempo reale</string>
+    <string name="sos_alarm">Allarme SOS</string>
+    <string name="speed_down_alarm">Decelerazione rapida</string>
+    <string name="speed_up_alarm">Accelerazione rapida</string>
+    <string name="turn_left_alarm">Gira a sinistra urgente</string>
+    <string name="turn_right_alarm">Gira a destra urgente</string>
+    <string name="msg_from">Gli è inviato un messaggio appena, il contenuto è</string>
+    <string name="none">"Senza utente legato 
+Si prega di aprire l'assistente di auto del cellulare-> Io-> Gestione di dispositivi -> scansione di dispositivi"</string>
+    <string name="sim_alert">Si prega di utilizzare la scheda SIM standard per garantire la rete normale</string>
+</resources>

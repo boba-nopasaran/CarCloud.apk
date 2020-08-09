@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assistant de voiture</string>
+    <string name="message_send">Envoyez</string>
+    <string name="bond_user_list">Utilisateur lié</string>
+    <string name="bond_qr_tip">"Utilisez l'application Carassist pour scanner le code bidimensionnel supérieur afin de lier au téléphone portable"</string>
+    <string name="input_message_tip">Entrez le contenu du texte</string>
+    <string name="empty_message_tip">"L'entrée est vide"</string>
+    <string name="no_message">"Aucune information pour l'instant"</string>
+    <string name="bond_qr">Liez le code bidimensionnel</string>
+    <string name="title_already_new">"C'est la dernière version"</string>
+    <string name="message_already_new">Le système actuel est déjà la dernière version</string>
+    <string name="sure">Confirmez</string>
+    <string name="ignore">Ignorez cette version</string>
+    <string name="later">Rappellez-moi plus tard</string>
+    <string name="title_new_version">Nouvelle version trouvée</string>
+    <string name="please_go">Venez</string>
+    <string name="download2sd">Téléchargez dans sdcard pour la mise à niveau</string>
+    <string name="change_log">Enregistrement de modification de version</string>
+    <string name="pickup_prompt">"Informations d'emplacement du correspond obtenues (destination:%s), voulez-vous partir pour le chercher ?"</string>
+    <string name="appointment_prompt">Destination de navigation réservée est : %s, la navigation va bientôt démarrer</string>
+    <string name="gonow">Partez</string>
+    <string name="cancel">Annuler</string>
+    <string name="received_bind_request">%1$s a lancé une demande de liaison</string>
+    <string name="agree_key_ok">Bouton</string>
+    <string name="agree_key_mid">Bouton du milieu</string>
+    <string name="agree">Acceptez</string>
+    <string name="refuse">Refusez</string>
+    <string name="bindtips">"Si vous acceptez la demande de liaison, cliquez sur l'appareil %2$s en %1$d secondes pour confirmer,"</string>
+    <string name="agreenow">La demande de liaison a été acceptée</string>
+    <string name="refusenow">La demande de liaison a été rejetée</string>
+    <string name="delbind">Voulez-vous annuler la liaison pour %s?</string>
+    <string name="connected">(En ligne)</string>
+    <string name="disconnected">(Hors-ligne)</string>
+    <string name="unbindnow">"Dissociez avec l'appareil"</string>
+    <string name="bondrequest">Émettre une demande de liaison</string>
+    <string name="device_connected">Appareil en ligne</string>
+    <string name="device_disconnected">Appareil hors ligne</string>
+    <string name="qrcode_tip">"Téléchargement de APP Carassist
+ Application Carassist lie à l'appareil"</string>
+    <string name="title_download_qr">Code bidimensionnel de téléchargement pour le côté client du téléphone portable</string>
+    <string name="subtitle_download_qr">Vous pouvez scanner le code bidimensionnel correspond pour télécharger le côté client du système Android et celui du système Apple</string>
+    <string name="title_bond_qr">Liez le code bidimensionnel</string>
+    <string name="subtitle_bond_qr">Après le téléchargement du côté client du téléphone portable, vous pouvez scanner le code bidimensionnel pour lier cet appareil</string>
+    <string name="device_alarm">"Démarrage de l'appareil avec succès"</string>
+    <string name="start_alarm">Votre véhicule a déjà démarré</string>
+    <string name="shake_alarm">Votre voiture est actuellement sous une forte vibration, veuillez faire attention</string>
+    <string name="image_alarm">Détails de photos en temps réel</string>
+    <string name="video_alarm">"Détails de l'enregistrement en temps réel"</string>
+    <string name="sos_alarm">Alarme SOS</string>
+    <string name="speed_down_alarm">Décélération rapide</string>
+    <string name="speed_up_alarm">Accélération rapide</string>
+    <string name="turn_left_alarm">Virage à gauche</string>
+    <string name="turn_right_alarm">Virage à droite</string>
+    <string name="msg_from">On vient de vous envoyer un message</string>
+    <string name="none">"Aucun utilisateur lié
+ Veuillez ouvrir l'application Carassist du téléphone portable->Moi->Gestion de l'appareil ->Scannez l'appareil"</string>
+    <string name="sim_alert">Utilisez une carte SIM standard pour vous assurer que votre réseau fonctionne</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">โปรแกรมCar Assistant</string>
+    <string name="message_send">ส่ง</string>
+    <string name="bond_user_list">ผู้ใช้บอนด์</string>
+    <string name="bond_qr_tip">คุณบอนด์โทรศัพท์โดยสแกนโค้ดบอนด์QRได้</string>
+    <string name="input_message_tip">ใส่ข้อความ</string>
+    <string name="empty_message_tip">ข้อความว่างเปล่า</string>
+    <string name="no_message">ไม่มีข้อความ</string>
+    <string name="bond_qr">โค้ดบอนด์QR</string>
+    <string name="title_already_new">เวอร์ชั่นใหม่ล่าสุด</string>
+    <string name="message_already_new">เป็นเวอร์ชั่นใหม่ล่าสุดแล้ว</string>
+    <string name="sure">ตกลง</string>
+    <string name="ignore">ไม่สนใจเวอร์ชั่นนี้</string>
+    <string name="later">เตือนฉันทีหลัง</string>
+    <string name="title_new_version">ค้นหาเวอร์ชั่นใหม่</string>
+    <string name="please_go">โปรดไป</string>
+    <string name="download2sd">ดาวน์โหลดไปยังการ์ดSDเพื่อยกระดับ</string>
+    <string name="change_log">บันทึกที่เปลี่ยนแปลงเวอร์ชั่น</string>
+    <string name="pickup_prompt">ได้ทราบสถานที่ที่เพื่อนของคุณแล้ว(จุดหมายปลายทางคือ %s) ไปเดี๋ยวนี้และรับพวกเขาไหม</string>
+    <string name="appointment_prompt">จุดหมายปลายทางคือ%sจากการนัดพบ พร้อมจะไปเดี๋ยวนี้</string>
+    <string name="gonow">ไป</string>
+    <string name="cancel">อื่นๆ</string>
+    <string name="agree">ยอมรับ</string>
+    <string name="refuse">ปฏิเสธ</string>
+    <string name="bindtips">กรุณากดปุ่มของอุปกรณ์เพื่อยืนยันคำขอที่ ผูกพันภายใน%1$dวินาที</string>
+    <string name="agreenow">ข้อตกลง</string>
+    <string name="refusenow">ปฏิเสธ</string>
+    <string name="connected">(ออนไลน์)</string>
+    <string name="disconnected">(ออฟไลน์ )</string>
+    <string name="device_connected">อุปกรณ์ออนไลน์</string>
+    <string name="device_disconnected">อุปกรณ์ออฟไลน์</string>
+    <string name="qrcode_tip">โปรแกรมผู้ช่วยรถดาวน์โหลดและอุปกรณ์บอนด์</string>
+    <string name="title_download_qr">โปรแกรมผู้ช่วยรถดาวน์โหลดโค้ดQR</string>
+    <string name="subtitle_download_qr">คุณดาวน์โหลดโปรแกรมCar Assistantโดยสแกนโค้ดดาวน์โหลดQRได้</string>
+    <string name="title_bond_qr">โค้ดบอนด์QR</string>
+    <string name="subtitle_bond_qr">หลังจากดาวน์โหลดโปรแกรมCar Assistant คุณบอนด์อุปกรณ์นี้โดยสแกนโค้ดบอนด์QRได้</string>
+    <string name="device_alarm">อุปกรณ์พร้อมแล้ว</string>
+    <string name="start_alarm">รถกำลังเริ่มต้น</string>
+    <string name="shake_alarm">ระวัง รถกำลังสั่น</string>
+    <string name="image_alarm">รายละเอียดของการถ่ายรูป</string>
+    <string name="video_alarm">รายละเอียดของการบันทึกวิดีโอ</string>
+    <string name="msg_from">ส่งข้อความให้คุณ:</string>
+    <string name="none">ไม่มี</string>
+</resources>

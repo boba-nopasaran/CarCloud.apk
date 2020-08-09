@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">車のアシスタント</string>
+    <string name="message_send">送信</string>
+    <string name="bond_user_list">関連付けたユーザー</string>
+    <string name="bond_qr_tip">車のアシスタントで上のQRコードをスキャンすれば、スマフォンの端末と関連付けることができます</string>
+    <string name="input_message_tip">文字の内容を入力します</string>
+    <string name="empty_message_tip">文字の内容が入力されていません</string>
+    <string name="no_message">データ無し</string>
+    <string name="bond_qr">QRコードを関連付けます</string>
+    <string name="title_already_new">すでに最新バージョンです</string>
+    <string name="message_already_new">今のシステムはすでに最新バージョンです</string>
+    <string name="sure">確認</string>
+    <string name="ignore">このバージョンを無視します</string>
+    <string name="later">後で思い出してください</string>
+    <string name="title_new_version">新しいバージョンが見つかりました</string>
+    <string name="please_go">、</string>
+    <string name="download2sd">sdcardにダウンロードして更新します</string>
+    <string name="change_log">バージョンの修正歴史</string>
+    <string name="pickup_prompt">すでに相手の位置情報を受け取りましたが（目的地：%s）、迎えに行きますか。</string>
+    <string name="appointment_prompt">目的地は予定から %s です、すぐに行く準備ができております</string>
+    <string name="gonow">出発</string>
+    <string name="cancel">キャンセル</string>
+    <string name="received_bind_request">%1$sから関連付けの請求が届けてきました</string>
+    <string name="agree_key_ok">ボタン</string>
+    <string name="agree_key_mid">真ん中のボタン</string>
+    <string name="agree">同意</string>
+    <string name="refuse">拒否</string>
+    <string name="bindtips">関連付けの請求を同意する場合、%1$d秒内に端末の%2$sをさっと押して確認します、</string>
+    <string name="agreenow">関連付けの請求を同意しました</string>
+    <string name="refusenow">今すぐ拒否</string>
+    <string name="delbind">%sの関連付けを取り消しますか。</string>
+    <string name="connected">（オンライン）</string>
+    <string name="disconnected">（オフライン）</string>
+    <string name="unbindnow">端末との関連付けを解除しました</string>
+    <string name="bondrequest">関連付けの請求を送信します</string>
+    <string name="device_connected">端末がオンラインしています</string>
+    <string name="device_disconnected">端末はオフラインしています</string>
+    <string name="qrcode_tip">"APPの車のアシスタントのダウンロード
+車のアシスタントを端末に関連付けます"</string>
+    <string name="title_download_qr">スマフォンの端末でQRコードをダウンロードします</string>
+    <string name="subtitle_download_qr">Download QR Code をスキャンしてカーアシストをダウンロードできます</string>
+    <string name="title_bond_qr">QRコードを関連付けます</string>
+    <string name="subtitle_bond_qr">カーアシストをダウンロード後、Bond QR Codeのスキャンにより、このデバイスにボンドできます。</string>
+    <string name="device_alarm">端末が成功に始動しました</string>
+    <string name="start_alarm">車は起動しています</string>
+    <string name="shake_alarm">車は今比較的で強い振動を受けていますので、ご注意ください。</string>
+    <string name="image_alarm">リアルタイムの写真の詳細</string>
+    <string name="video_alarm">リアルタイムのビデオの詳細</string>
+    <string name="sos_alarm">SOS警報</string>
+    <string name="speed_down_alarm">急減速</string>
+    <string name="speed_up_alarm">急加速</string>
+    <string name="turn_left_alarm">緊急左折</string>
+    <string name="turn_right_alarm">緊急右折</string>
+    <string name="msg_from">たった今メッセージが届けてきました。その内容は</string>
+    <string name="none">"関連付けたユーザーはいません
+スマフォン端末の車のアシスタントを開いて->私->端末管理->端末をスキャンしてください"</string>
+    <string name="sim_alert">ネットワークを正常に運行するため、標準のSIMカードを使用してください</string>
+</resources>

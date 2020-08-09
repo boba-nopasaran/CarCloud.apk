@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Araba Asistanı</string>
+    <string name="message_send">Gönder</string>
+    <string name="bond_user_list">Bond Kullanıcıları</string>
+    <string name="bond_qr_tip">"Bond QR Code'u tarayarak telefonu bağlayabilirsiniz"</string>
+    <string name="input_message_tip">Giriş Mesajı</string>
+    <string name="empty_message_tip">Mesaj boş</string>
+    <string name="no_message">Mesaj Yok</string>
+    <string name="bond_qr">Bond QR Kodu</string>
+    <string name="title_already_new">Son sürüm</string>
+    <string name="message_already_new">en son sürümü oldu</string>
+    <string name="sure">tamam</string>
+    <string name="ignore">Bu sürümü yoksay</string>
+    <string name="later">Daha sonra hatırlat</string>
+    <string name="title_new_version">Yeni sürüm bul</string>
+    <string name="please_go">Lütfen gidin</string>
+    <string name="download2sd">"yükseltmek için sdcard'a indirin"</string>
+    <string name="change_log">Sürüm değişiklik günlüğü</string>
+    <string name="pickup_prompt">Arkadaşlarınızın konumunu öğrenin (hedef %s), şimdi gidin ve onları alın?</string>
+    <string name="appointment_prompt">Hedef randevudaki %s, şu an hazır olacak</string>
+    <string name="gonow">Git</string>
+    <string name="cancel">İptal</string>
+    <string name="agree">Kabul</string>
+    <string name="refuse">Reddet</string>
+    <string name="bindtips">Bağlama isteğini %1$d saniye içinde onaylamak için lütfen cihazın düğmesine basın</string>
+    <string name="agreenow">Anlaşma</string>
+    <string name="refusenow">Simdi reddet</string>
+    <string name="connected">(Çevrimiçi)</string>
+    <string name="disconnected">(Çevrimdışı)</string>
+    <string name="device_connected">Çevrimiçi Aygıt</string>
+    <string name="device_disconnected">Cihaz Çevrimdışı</string>
+    <string name="qrcode_tip">Araç Assistanı ve Cihaz bund indir</string>
+    <string name="title_download_qr">Arac Asistanı QR Kodunu İndirin</string>
+    <string name="subtitle_download_qr">"QR Code İndir'i tarayarak Arac Asistanı indirebilirsiniz"</string>
+    <string name="title_bond_qr">Bond QR Kodu</string>
+    <string name="subtitle_bond_qr">"İndirilen Car Assistant'tan sonra, bu cihazı Bond QR Code"</string>
+    <string name="device_alarm">Cihaz hazır</string>
+    <string name="start_alarm">Araç Başlıyor</string>
+    <string name="shake_alarm">Dikkat! Araba Sarsıyor</string>
+    <string name="image_alarm">Çekilen fotoğrafların ayrıntıları</string>
+    <string name="video_alarm">Kayıtlı videoların ayrıntıları</string>
+    <string name="msg_from">Mesaj gönder:</string>
+    <string name="none">Hiçbiri</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Assistant</string>
+    <string name="message_send">Gửi</string>
+    <string name="bond_user_list">Người sử dụng liên kết</string>
+    <string name="bond_qr_tip">Bạn có thể liên kết điện thoại bằng cách quét mã QR</string>
+    <string name="input_message_tip">Nhập tin nhắn</string>
+    <string name="empty_message_tip">Tin nhắn trống</string>
+    <string name="no_message">Không có tin nhắn</string>
+    <string name="bond_qr">Mã QR</string>
+    <string name="title_already_new">Đây đã là phiên bản mới nhất</string>
+    <string name="message_already_new">Đã là phiên bản mới nhất</string>
+    <string name="sure">OK</string>
+    <string name="ignore">Bỏ qua phiên bản này</string>
+    <string name="later">Nhắc tôi sau</string>
+    <string name="title_new_version">Bản cập nhật mới cho thiết bị của bạn</string>
+    <string name="please_go">Vui lòng di chuyển</string>
+    <string name="download2sd">Tải xuống thẻ nhớ để nâng cấp</string>
+    <string name="change_log">Nhật ký thay đổi phiên bản</string>
+    <string name="pickup_prompt">Có vị trí của bạn bè (điểm đến là %s), đến rước họ ngay?</string>
+    <string name="appointment_prompt">Điểm đến là %s, đã sẵn sàng để đi ngay bây giờ</string>
+    <string name="gonow">Đi</string>
+    <string name="cancel">Hủy</string>
+    <string name="agree">Đồng ý</string>
+    <string name="refuse">Từ chối</string>
+    <string name="bindtips">Vui lòng nhấn nút của thiết bị để xác nhận yêu cầu liên kết trong %1$d giây</string>
+    <string name="agreenow">Đồng ý ngay</string>
+    <string name="refusenow">Từ chối ngay</string>
+    <string name="connected">(Trực tuyến)</string>
+    <string name="disconnected">(Ngoại tuyến)</string>
+    <string name="device_connected">Thiết bị trực tuyến</string>
+    <string name="device_disconnected">Thiết bị ngoại tuyến</string>
+    <string name="qrcode_tip">Tải xuống Car Assistant và liên kết Thiết bị</string>
+    <string name="title_download_qr">Car Assistant Tải xuống Mã QR</string>
+    <string name="subtitle_download_qr">Bạn có thể tải Car Assistant bằng cách quét Mã QR</string>
+    <string name="title_bond_qr">Mã QR Liên kết</string>
+    <string name="subtitle_bond_qr">Sau khi tải xuống Car Assistant, bạn có thể liên kết thiết bị này bằng cách quét mã QR của Khách hàng</string>
+    <string name="device_alarm">Thiết bị đã sẵn sàng</string>
+    <string name="start_alarm">Xe đang bắt đầu</string>
+    <string name="shake_alarm">Chú ý! Xe đang rung</string>
+    <string name="image_alarm">Ảnh đã được chụp</string>
+    <string name="video_alarm">Video đã được ghi</string>
+    <string name="sos_alarm">Cảnh báo SOS</string>
+    <string name="msg_from">Gửi tin nhắn cho bạn:</string>
+    <string name="none">Không có</string>
+    <string name="sim_alert">Vui lòng sử dụng SIM hợp lệ</string>
+</resources>

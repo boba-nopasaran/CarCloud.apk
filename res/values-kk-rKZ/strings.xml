@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car assistant</string>
+    <string name="message_send">беру</string>
+    <string name="bond_user_list">Пайдаланушы байланыстырылған болып табылады</string>
+    <string name="bond_qr_tip">пайдалану Car assistant Fanger Вэй коды сканерлеу,Ұялы терминал үшін Binding</string>
+    <string name="input_message_tip">Мәтінді енгізіңіз</string>
+    <string name="empty_message_tip">Кіріс бос</string>
+    <string name="no_message">ақпарат жоқ</string>
+    <string name="bond_qr">Binding екі өлшемді коды</string>
+    <string name="title_already_new">Бұл күнге дейін болып табылады</string>
+    <string name="message_already_new">Ағымдағы жүйе жаңартылғанын</string>
+    <string name="sure">анықтау</string>
+    <string name="ignore">Осы нұсқасын елемеу</string>
+    <string name="later">Кейінірек еске салу</string>
+    <string name="title_new_version">Жаңа редакцияда ашылуы</string>
+    <string name="please_go">Өтінеміз,</string>
+    <string name="download2sd">Sdcard Upgrade үшін жүктеп</string>
+    <string name="change_log">Ревизиялық тарихы</string>
+    <string name="pickup_prompt">Сатып алынған басқа да позиция ақпарат（арналған：%s），бастап ма？</string>
+    <string name="appointment_prompt">Навигация үшін брондау тағайындалған：%s，Навигация бастайды табылады шамамен</string>
+    <string name="gonow">кету</string>
+    <string name="cancel">болдырылмады</string>
+    <string name="connected">(Онлайн)</string>
+    <string name="disconnected">(оффлайн)</string>
+    <string name="title_download_qr">Мобильді клиент жүктеп алу үшін екі өлшемді коды</string>
+    <string name="subtitle_download_qr">Сіз тиісті екі өлшемді коды жүктеу Android және IOS клиент сканерлей алады</string>
+    <string name="title_bond_qr">Binding екі өлшемді коды</string>
+    <string name="subtitle_bond_qr">Телефон Бұл түптеу жабдықтары түптеу екі өлшемді кодты сканерлеуге болады кейін клиент жүктеп</string>
+</resources>
