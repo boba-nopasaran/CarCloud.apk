@@ -1742,7 +1742,9 @@
 
     move-result v2
 
-    if-ne v2, p1, :cond_0
+#by boba 26.11.2020
+#remote over wifi
+#    if-ne v2, p1, :cond_0
 
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getState()Landroid/net/NetworkInfo$State;
 
