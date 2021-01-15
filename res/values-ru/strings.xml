@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Помощник</string>
+    <string name="message_send">Отправка</string>
+    <string name="bond_user_list">Связанный пользователь</string>
+    <string name="bond_qr_tip">Соединение с телефоном через QR код</string>
+    <string name="input_message_tip">Введите текст</string>
+    <string name="empty_message_tip">Ничего не введено</string>
+    <string name="no_message">Нет сообщений</string>
+    <string name="bond_qr">QR-код</string>
+    <string name="title_already_new">Последняя версия</string>
+    <string name="message_already_new">Последняя версия уже установлена</string>
+    <string name="sure">Определение</string>
+    <string name="ignore">Игнорировать эту версию</string>
+    <string name="later">Напомнить позже</string>
+    <string name="title_new_version">Новая версия</string>
+    <string name="please_go">Продолжить</string>
+    <string name="download2sd">Загрузить обновления в SD карту</string>
+    <string name="change_log">История изменений</string>
+    <string name="pickup_prompt">Местоположение друга/друзей определено （Назначено для ：%s）. Проложить маршрут?</string>
+    <string name="appointment_prompt">До пункта назначения：%s，Маршрут проложен</string>
+    <string name="gonow">Принять</string>
+    <string name="cancel">Отмена</string>
+    <string name="connected">(Подключено)</string>
+    <string name="disconnected">(Отключено)</string>
+    <string name="title_download_qr">Код для загрузки приложения Помощник</string>
+    <string name="subtitle_download_qr">Сканируйте QR-код для загрузки приложения Помощник в Android и Apple</string>
+    <string name="title_bond_qr">QR-код</string>
+    <string name="subtitle_bond_qr">После скачивания приложения Помощник, телефон может сканировать QR-код для соединения с устройством</string>
+</resources>
